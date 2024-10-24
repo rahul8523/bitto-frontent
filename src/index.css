@@ -563,10 +563,6 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
-.mission p {
-   font-size: 14px;
-   margin-top: 25px;
-}
 
 .vision-btn {
    border-radius: 50px;
@@ -1286,9 +1282,7 @@ h1,h2,h3,h4,h5,h6{
    .order-sm{
       order: 1 !important;
    }
-   .tom-mem{
-  padding-top:30px;
-   }
+
    .p-sm-1{
       padding:1rem !important;
    }
@@ -1370,7 +1364,7 @@ font-size:14px ;
    border-top: 1px solid #dbc1a5;
         width: 100%;
         img{
-         margin: 15px auto;
+         margin: 15px 0px auto;
         }
 }
 .Initiatives .custom-wrap{
@@ -1416,13 +1410,22 @@ font-size:14px ;
    }
    .domtrack {
       text-align: center;
-      padding:0px !important
+      padding:0px !important;
+}
+.domtrack img{
+   width:47px;
+}
+.domtrack1 img{
+   width:50px;  
 }
 .read-center{
    text-align: center;
 }
 .collaboration{
    text-align: center;  
+   img{
+      width:50px;
+   }
 }
    .section-2-head {
       text-align: center;
@@ -1431,7 +1434,9 @@ font-size:14px ;
       line-height: 3rem;
     }
     .vision span {
-      font-size:2rem;
+      font-size: 2rem;
+      line-height: 1rem;
+      margin-top: 20px;
     }
     .mission .d-flex{
       justify-content: center;
@@ -1443,12 +1448,15 @@ font-size:14px ;
     .mission p{
       text-align: center; 
       margin-top: 10px;
+      margin-bottom: 0px;
     }
     .vision .d-flex{
       justify-content: center;
     }
     .mission span {
-      font-size:2rem;
+      line-height: 1.5rem;
+      font-size: 2rem;
+      margin-top: 28px;
     }
     .membership h4 {
       font-size:3rem;
@@ -1485,7 +1493,7 @@ font-size:14px ;
    width:100% !important;
 }
 .premond {
-   height: 350px;
+   height: 320px;
  }
    .objective-img {
       width: 100%;
@@ -1582,7 +1590,7 @@ font-size:14px ;
 
    .name-div {
       padding-right: 0px;
-      padding-top: 20px;
+      padding-top:0px;
    }
    .chairmain-inner {
       font-size: 12px;
@@ -1593,7 +1601,7 @@ font-size:14px ;
    font-size: 16px;
 }
 .name-div-head {
-   font-size: 2rem;
+   font-size: 22px;
    margin-bottom: 0px;
 }
 .member-img{

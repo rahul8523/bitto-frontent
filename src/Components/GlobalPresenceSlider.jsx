@@ -207,7 +207,7 @@ const GlobalPresenceSlider = () => {
                     <Row>
 
                         <Col sm={2} lg={12}>
-                            <div className="general-container my-5">
+                            <div className="general-container">
 
                             <input className="radio" type="radio" name="card" id="cardCuatro1" />
                                 <label className="content" htmlFor="cardCuatro1">

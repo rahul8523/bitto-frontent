@@ -199,8 +199,8 @@ const Home = (props) => {
             <h2 className="section-2-head">Transform Bihar <br></br>
             Together, We Can</h2>
             <span>
-              Fostering{" "}
-              <strong>
+              {"Fostering "} 
+              <strong style={{color:"black"}}>
                 Entrepreneurship, Innovation, and Global Connections
               </strong>
             </span>
@@ -767,7 +767,7 @@ const Home = (props) => {
             </div>
             
           </div>
-         <button className=" mt-3 section-3-btn px-4 py-2 btn btn-primary">
+         <button className=" my-4 section-3-btn px-4 py-2 btn btn-primary">
             Read more <i class="fa fa-arrow-right" aria-hidden="true"></i>
           </button>
         </div>
@@ -833,7 +833,7 @@ const Home = (props) => {
                 height={100}
               />
               <strong>
-                BITO Industries <br />
+                BITO Industries 
                 Association (BIA)
               </strong>
             </div>
@@ -915,7 +915,7 @@ const Home = (props) => {
 
     {/* Membership in BITO  */}
 
-      <Container className="pt-5">
+      <Container className="">
         <Row style={{ background: "#422a1d" }}>
           <Col className="p-5 p-sm-1" lg={4}>
             <div className="membership">

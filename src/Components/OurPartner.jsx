@@ -3,7 +3,7 @@ import React from 'react'
 import { Button, Col, Container } from 'react-bootstrap'
 
 
-const Partners = ['BITO Japan', 'BITO USA', 'BITO Singapore', 'Shri Mahaveer Shikshan Sansthanam', 'Bihar Jharkhand Sabha Members Australia', 'Sukhi Parivar Foundation','University of Sydney']
+const Partners = ['Shri Mahaveer Shikshan Sansthanam', 'Bihar Jharkhand Sabha Members Australia', 'Sukhi Parivar Foundation','University of Sydney']
 
 const OurPartner = () => {
     return (
