@@ -795,7 +795,7 @@ const Home = (props) => {
             BITO Arms are specialized divisions within the Bihar International
             Trade Organization that focus on different aspects of its mission
           </p>
-          <div className="d-flex justify-content-center gap-5 my-5 flex-wrap bodies">
+          <div className="d-flex justify-content-center gap-5 gap-sm-4 my-5 flex-wrap bodies">
             <div className="d-flex flex-column align-items-center px-sm-5 startup">
               <Image
                 className="section-2-img p-3"

@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <>
       <div style={{ backgroundColor: "#f5e0cb" }}>
-        <Container style={{ padding: "20px 0" }}>
+        <Container>
           <Row>
             <Col lg={2} className="logo-div">
               <Image
@@ -42,8 +42,9 @@ const Footer = () => {
             </Col>
           </Row>
           {/* Second section in Footer */}
+
           <Row className="address-email-div-footer">
-            <Col className="address-email-cont-col" lg={3}>
+            <Col className="" lg={4}>
               <div className="address-div">
                 <span>Address:</span>
                 <p className="address-para">
@@ -58,10 +59,7 @@ const Footer = () => {
               </div>
             </Col>
 
-            <Col
-              className="quick-links-container"
-              lg={3}
-            >
+  <Col className="quick-Home" lg={2} sm={6}>
               <div className="quick-links">
                 <p style={{ fontSize: '15px', fontWeight: '600' }}>Quick Links</p>
                 <a style={{ textDecoration: 'none', color: 'black' }} href="/">Home</a>
@@ -75,9 +73,7 @@ const Footer = () => {
             </Col>
 
             <Col
-              className="quick-links-container-2"
-              lg={3}
-            >
+              className="" lg={2} sm={6}>
               <div className="quick-links-2">
                 {/* <li>EOI for BIA</li> */}
                 <Link to={'https://bitoworld.in/old-site/BSIC.php'}></Link>
@@ -96,12 +92,12 @@ const Footer = () => {
               </div>
             </Col>
 
-            <Col className="mx-auto newsletter-col" lg={3}>
+            <Col className="" lg={4} sm={12}>
               <div className="newsletter-div">
                 <p>Newsletter</p>
                 <div
                   style={{ gap: "6px" }}
-                  className="news-email-contact d-flex align-items-center"
+                  className="news-email-contact d-flex align-items-center justify-content-center"
                 >
                   <input
                     className="footer-input"
@@ -112,7 +108,7 @@ const Footer = () => {
                 </div>
 
                 <div className="social-footer mt-3">
-                  <p>Social Links</p>
+                  <h4>Social Links</h4>
 
                   <div className="social-icons d-flex align-items-center">
                     <Link to={'https://www.facebook.com/people/Bihar-International-Trade-Organisation/61553947718537/?mibextid=ZbWKwL'}>
@@ -156,14 +152,15 @@ const Footer = () => {
             </Col>
           </Row>
           {/* Third Row */}
-          <Container>
+
+        </Container>
+        <Container className="py-3 mt-3 copyright">
             <Col lg={12}>
-              <p className="footer-last-line text-center">
+              <p className="footer-last-line text-center m-0">
                 Copyright © 2024 Bihar International Trade Organization (BITO)
               </p>
             </Col>
           </Container>
-        </Container>
       </div>
     </>
   );
