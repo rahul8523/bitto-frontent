@@ -2,6 +2,9 @@
    font-size: 23px;
    font-weight: 200;
 }
+p{
+   font-size: 14px;
+}
 @font-face {
    font-family: 'Neulis';
    src: url('./assets/font/fonnts.com-Neulis_Sans_Regular.otf');
@@ -105,7 +108,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .left-side-div span {
-   font-size: 2rem;
+   font-size: 22px;
    line-height: 2rem;
    margin-top: 20px;
    color: #523b2f;
@@ -1246,12 +1249,18 @@ h1,h2,h3,h4,h5,h6{
 /* Responsive CSS Here */
 @media screen and (min-device-width: 200px) and (max-device-width:900px) {
 
+
+.mbon{
+   margin-top: -100px;
+   z-index: -1;
+   position: relative;
+}
 .home-slider{
             background-image: url('./assets/home-banner/slider2.jpg');
             background-size:cover;
             background-repeat:no-repeat;
             background-position:center;
-            height: 850px !important;
+            height: 750px !important;
             margin-top: 82px;
 
    }
@@ -1355,13 +1364,13 @@ h1,h2,h3,h4,h5,h6{
    }
 
  .bodies strong{
-font-size:18px ;
+font-size:16px ;
  }
 .industries{
    border-top: 1px solid #dbc1a5;
         width: 100%;
         img{
-      margin-top:20px;
+         margin: 15px auto;
         }
 }
 .Initiatives .custom-wrap{
@@ -1422,22 +1431,24 @@ font-size:18px ;
       line-height: 3rem;
     }
     .vision span {
-      font-size:3rem;
+      font-size:2rem;
     }
     .mission .d-flex{
       justify-content: center;
     }
     .vision p{
       text-align: center; 
+      margin-top: 10px;
     }
     .mission p{
       text-align: center; 
+      margin-top: 10px;
     }
     .vision .d-flex{
       justify-content: center;
     }
     .mission span {
-      font-size:3rem;
+      font-size:2rem;
     }
     .membership h4 {
       font-size:3rem;
@@ -1559,7 +1570,7 @@ font-size:18px ;
       padding: 20px;
    }
 .custom-wrap div strong{
-   font-size: 18px;
+   font-size: 16px;
 }
  
    .upper-title {

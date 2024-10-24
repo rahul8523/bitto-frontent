@@ -12,7 +12,7 @@ const GlobalPresenceSlider = () => {
         <>
             <Container>
                 <div>
-                    <h1 className='text-center global-presence-head pb-5'>Our Global Presence</h1>
+                    <h1 className='text-center global-presence-head pb-3'>Our Global Presence</h1>
                 </div>
 
             </Container>

@@ -8,7 +8,7 @@ import Img3 from '../assets/img-3.png'
 const Roadmap = () => {
     return (
         <>
-            <div style={{ backgroundColor: '#fffbf5', position: 'relative' }}>
+            <div style={{position: 'relative' }}>
                 <Container className='years-mb py-5'>
                     <h1 style={{ color: '#b27f4a', fontWeight: '500' }} className='heading'>5 Years Road Map</h1>
 

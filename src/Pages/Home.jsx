@@ -81,7 +81,7 @@ const Home = (props) => {
           <div className="container text-white tomker">
             <Row>
               <Col lg={4}>
-              <Link to={'/membership'} className="member-button d-sm-none d-block">
+              {/* <Link to={'/membership'} className="member-button d-sm-none d-block">
 
 <Button
   style={{
@@ -94,7 +94,7 @@ const Home = (props) => {
 >
   Become a Member <i class="fa fa-arrow-right" aria-hidden="true"></i>
 </Button>
-</Link>
+</Link> */}
                 <div className="first-head-box">
 
                    {/* DESKTOP MOBILE ONLY  */}
@@ -219,24 +219,24 @@ const Home = (props) => {
                 not only recognized but celebrated worldwide.
               </p>
             </div>
-
+{/* 
             <Link to={'https://bitoworld.in/old-site/about.php'}>
               <div>
-                <Button className="section-2-btn px-5 py-3 mt-2">Learn More <i class='fa fa-arrow-right'></i></Button>
+                <Button className="section-2-btn px-4 py-2 mt-2">Learn More <i class='fa fa-arrow-right'></i></Button>
               </div>
-            </Link>
+            </Link> */}
 
           </Col>
           {/* Right div for image */}
           <Col className="right-side-div mx-auto" lg={6}>
           <Image style={{ width: '100%' }} src={Kamal} alt="img" className="d-sm-block d-none"/>
-          <Image style={{ width: '100%' }} src={Kamal2} alt="img" className="d-sm-none d-block"/>
+          <Image style={{ width: '100%' }} src={Kamal2} alt="img" className="d-sm-none d-block mbon"/>
           </Col>
         </Row>
       </Container>
 
       {/* Third section */}
-      <div style={{backgroundColor: "#fffbf5" }}>
+      <div className="">
         <Container className="py-5">
           {/* DESKTOP DESIGN LAYOUT  */}
 
@@ -338,7 +338,7 @@ const Home = (props) => {
               </div>
 
               <div>
-                <Button onClick={() => setModalShow(true)} className="section-3-btn px-5 py-3">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></Button>
+                <Button onClick={() => setModalShow(true)} className="section-3-btn px-4 py-2">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></Button>
               </div>
             </Col>
           </Row>
@@ -733,7 +733,7 @@ const Home = (props) => {
               <div className="w-50 px-3 domtrack1">
                 <Image src={Layer23} alt="" />
                 <p className="pt-3" style={{
-                  fontSize:"18px",
+                  fontSize:"16px",
                 }}>
                   <strong>Economic <br/> Empowerment</strong>
                 </p>
@@ -741,7 +741,7 @@ const Home = (props) => {
               <div className="w-50 px-3 pb-4 border-start domtrack">
                 <Image src={Layer24} alt="" />
                 <p className="pt-3" style={{
-                  fontSize:"18px",
+                  fontSize:"16px",
                 }}>
                   <strong>Cultural Preservation <br/>& Promotion</strong>
                 </p>
@@ -751,7 +751,7 @@ const Home = (props) => {
               <div className="w-50">
                 <Image src={Layer25} alt="" />
                 <p className="pt-3" style={{
-                  fontSize:"18px",
+                  fontSize:"16px",
                 }}>
                   <strong>Global <br/>Collaboration</strong>
                 </p>
@@ -759,7 +759,7 @@ const Home = (props) => {
               <div className="w-50 px-3 border-start">
                 <Image src={Layer26} alt="" />
                 <p className="pt-3" style={{
-                  fontSize:"18px",
+                  fontSize:"16px",
                 }}>
                   <strong>Inclusitivity & <br/> Sustainability</strong>
                 </p>
@@ -767,7 +767,7 @@ const Home = (props) => {
             </div>
             
           </div>
-         <button className=" mt-3 section-3-btn px-5 py-3 btn btn-primary">
+         <button className=" mt-3 section-3-btn px-4 py-2 btn btn-primary">
             Read more <i class="fa fa-arrow-right" aria-hidden="true"></i>
           </button>
         </div>
@@ -838,7 +838,7 @@ const Home = (props) => {
               </strong>
             </div>
           </div>
-         <button className="section-3-btn px-5 py-3 btn btn-primary">
+         <button className="section-3-btn px-4 py-2 btn btn-primary">
             Read more <i class="fa fa-arrow-right" aria-hidden="true"></i>
           </button>
         </Container>
@@ -901,7 +901,7 @@ const Home = (props) => {
             <strong>BITO Multi Specialty Hospital</strong>
           </div>
         </div>
-         <button className="section-3-btn px-5 py-3 btn btn-primary">
+         <button className="section-3-btn px-4 py-2 btn btn-primary">
           Read more <i class="fa fa-arrow-right" aria-hidden="true"></i>
         </button>
       </Container>
@@ -928,7 +928,7 @@ const Home = (props) => {
               </p>
               <div>
                 <Link to={'/membership'}>
-                  <Button className="membership-btn px-5 py-3 mt-4">
+                  <Button className="membership-btn px-4 py-2 mt-4">
                     Become A Member <i class="fa fa-arrow-right" aria-hidden="true"></i>
                   </Button>
                 </Link>
