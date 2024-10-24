@@ -1539,7 +1539,7 @@ font-size:14px ;
       text-align: center;
    }
    .social-icons{
-      align-items: center !important;
+      justify-content: center;
    }
    .address-email-div-footer {
       padding: 10px 0px;
