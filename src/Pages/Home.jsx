@@ -237,7 +237,7 @@ const Home = (props) => {
 
       {/* Third section */}
       <div className="">
-        <Container className="py-5">
+        <Container className="pb-5">
           {/* DESKTOP DESIGN LAYOUT  */}
 
           <h1 className="text-center section-3-heading d-none d-sm-block pb-5">
@@ -733,7 +733,7 @@ const Home = (props) => {
               <div className="w-50 px-3 domtrack1">
                 <Image src={Layer23} alt="" />
                 <p className="pt-3" style={{
-                  fontSize:"16px",
+                  fontSize:"14px",
                 }}>
                   <strong>Economic <br/> Empowerment</strong>
                 </p>
@@ -741,7 +741,7 @@ const Home = (props) => {
               <div className="w-50 px-3 pb-4 border-start domtrack">
                 <Image src={Layer24} alt="" />
                 <p className="pt-3" style={{
-                  fontSize:"16px",
+                  fontSize:"14px",
                 }}>
                   <strong>Cultural Preservation <br/>& Promotion</strong>
                 </p>
@@ -751,7 +751,7 @@ const Home = (props) => {
               <div className="w-50">
                 <Image src={Layer25} alt="" />
                 <p className="pt-3" style={{
-                  fontSize:"16px",
+                  fontSize:"14px",
                 }}>
                   <strong>Global <br/>Collaboration</strong>
                 </p>
@@ -759,7 +759,7 @@ const Home = (props) => {
               <div className="w-50 px-3 border-start">
                 <Image src={Layer26} alt="" />
                 <p className="pt-3" style={{
-                  fontSize:"16px",
+                  fontSize:"14px",
                 }}>
                   <strong>Inclusitivity & <br/> Sustainability</strong>
                 </p>
@@ -908,7 +908,7 @@ const Home = (props) => {
 
       {/* Global Presence Slider */}
 
-      <div className="pt-5">
+      <div className="">
         <GlobalPresenceSlider />
       </div>
 

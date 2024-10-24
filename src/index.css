@@ -1251,7 +1251,7 @@ h1,h2,h3,h4,h5,h6{
 
 
 .mbon{
-   margin-top: -100px;
+   margin-top: -70px;
    z-index: -1;
    position: relative;
 }
@@ -1364,7 +1364,7 @@ h1,h2,h3,h4,h5,h6{
    }
 
  .bodies strong{
-font-size:16px ;
+font-size:14px ;
  }
 .industries{
    border-top: 1px solid #dbc1a5;
@@ -1381,8 +1381,8 @@ font-size:16px ;
 
    .d-flex:nth-child(1){
       border-right: 1px solid #dbc1a5;
-      height: 85%;
-      padding-bottom: 4rem;
+      height:90%;
+      margin-bottom: 2rem;
    }
    .d-flex:nth-child(3){
       border-top: 1px solid #dbc1a5;
@@ -1485,7 +1485,7 @@ font-size:16px ;
    width:100% !important;
 }
 .premond {
-   height: 380px;
+   height: 350px;
  }
    .objective-img {
       width: 100%;
@@ -1570,7 +1570,8 @@ font-size:16px ;
       padding: 20px;
    }
 .custom-wrap div strong{
-   font-size: 16px;
+   font-size: 14px;
+   padding: 0px 5px;
 }
  
    .upper-title {
