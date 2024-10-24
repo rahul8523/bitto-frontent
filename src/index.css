@@ -1568,6 +1568,10 @@ font-size:14px ;
 
    .img-2-president {
       border-radius: 100px;
+      border: 1px solid #b27f4a;
+      width: 100px;
+      height: 100px;
+       object-fit: cover;
    }
 
    .swiper-button-next,
